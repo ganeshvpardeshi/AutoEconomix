@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo AutoEconomix</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&family=Kumbh+Sans:wght@500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body style="background-color: black;">
+
+  <nav class="navbar ">
+      <ul class="nav-links">
+
+        <li><a class="active" href="#home">Home</a></li>
+
+        <!-- <li><a href="pages/about.html">About</a></li> -->
+
+        <li><a href="#services">Services</a></li>
+
+        <li><a href="#contact-us">Contact</a></li>
+
+      </ul>
+
+    <ul style="justify-content: center;">
+      <li><a href="#"><img src="images/nav_car.png" class="img_1 " /></a></li>
+      <li><a href="#"><img src="images/profile.svg" class="img" /></a></li>
+    </ul>
+  </nav>
+  <div id="home">
+    <div class="thumbnail">
+      <img src="/images/dashImage.png" class="img-fluid " style="margin-top: 2vh;" alt="">
+      <div class="caption">
+        <h6>Welcome To</h6>
+        <p>AutoEconomiX</p>
+      </div>
+      <div class="caption_1">
+        <h5>Predict</h5>
+        <h4>Your Ride's Price...</h4>
+      </div>
+      <div class="button ">
+        <button class="btn btn-info text-black"><a href="choose/choose.html">Get Started</a></button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-car-bike" id="services">
+    <div class="car-div">
+      <h1 class="float">Our Services</h1>
+      <div class="d-flex car_service">
+        <img src="/images/mustang.png" class="float-left" style="width: 50%;">
+        <p class="float-right">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit sapiente fugit magnam iusto! Nam alias in, amet </p>
+      </div>
+    </div>
+
+    <div class="bike-div">
+      <div class="d-flex bike_service">
+        <p class="float-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit sapiente fugit magnam iusto! Nam alias in, amet </p>
+        <img src="/images/bike-image.png" class="justify-content-end "
+          style="width: 40%; margin-left: 5vw; margin-right: 5vw;">
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="contact-us">
+    <footer class="py-3 my-4">
+      <h1 class="contact">
+        Contact Us
+      </h1>
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#home" class="nav-link px-2 " style="color: brown; font-size: 1.5vw; font-family: 'Inria Sans', sans-serif;
+            ">Home</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link px-2 " style="color: brown; font-size: 1.5vw; font-family: 'Inria Sans', sans-serif;
+            ">Services</a></li>
+        <!-- <li class="nav-item"><a href="#" class="nav-link px-2 ">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 ">FAQs</a></li> -->
+        <li class="nav-item"><a href="#contact-us" class="nav-link px-2 " style="color: brown; font-size: 1.5vw; font-family: 'Inria Sans', sans-serif;
+            ">About</a></li>
+      </ul>
+      <p class="text-center text-white" style="font-size: 1.5vw;">&copy; 2023 Auto EconomiX, Inc</p>
+    </footer>
+  </div>
+</body>
+
+</html>

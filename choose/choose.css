@@ -1,0 +1,119 @@
+body {
+    background-color: black;
+    justify-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin: 0vw 0.1vw 0vw 0.1vw;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
+/* navbar */
+.back_img {
+    padding: 1vw 0vw 0vw 0vw;
+    width: 5vw;
+    height: 5vh;
+}
+
+.container {
+    position: relative;
+    background-color: #A7F8FD;
+    align-items: center;
+    width: auto;
+    height: max-content;
+    margin: 0vw 23vw 0vw 23vw;
+    border-radius: 1vw;
+}
+
+.container h1 {
+    letter-spacing: 0.1vw;
+    font-family: 'Goldman', sans-serif;
+    text-align: center;
+    font-size: 2vw;
+    padding: 3vw 0vw 3vw 0vw;
+    position: relative;
+}
+
+.card_container {
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-around;
+    margin: 0vw 0vw 10vw 0vw;
+}
+
+/* car card */
+.car_card {
+    position: relative;
+    width: 15vw;
+    height: max-content;
+    padding: 0vw 0vw 1vw 0vw;
+    background-color: #C9BDF9;
+    margin: 0vw 0vw 0vw 0vw;
+    align-self: flex-start;
+    border-radius: 1vw;
+    align-items: center;
+}
+
+.car_gif {
+    margin: 1vw 0vw 0vw 0vw;
+    width: 12.5vw;
+    height: 10vw;
+    border-radius: 1vw;
+    cursor: pointer;
+
+}
+
+.car_btn {
+    font-family: 'Goldman', sans-serif;
+    background-color: #B6A8EB;
+    text-align: center;
+    font-size: 1.8vw;
+    width: 10vw;
+    text-decoration: none;
+    border-radius: 0.4vw;
+    margin: 0.5vw 0vw 0vw 2.5vw;
+}
+
+.car_btn a {
+    text-decoration: none;
+}
+
+/* bike card */
+.bike_card {
+
+    position: relative;
+    width: 15vw;
+    height: max-content;
+    padding: 0vw 0vw 1vw 0vw;
+    background-color: #C9BDF9;
+    margin: 0vw 0vw 0vw 0vw;
+    border-radius: 1vw;
+}
+
+.bike_img {
+    margin: 1vw 0vw 0vw 0vw;
+    width: 12.5vw;
+    height: 10vw;
+    border-radius: 1vw;
+}
+
+.bike_btn {
+    font-family: 'Goldman', sans-serif;
+    background-color: #B6A8EB;
+    text-align: center;
+    font-size: 1.8vw;
+    width: 10vw;
+    border-radius: 0.4vw;
+    margin: 0.5vw 0vw 0vw 2.5vw;
+}
+
+.bike_btn a {
+    text-decoration: none;
+}
