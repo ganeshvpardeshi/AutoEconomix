@@ -1,0 +1,96 @@
+body {
+    background-image: url("./images/login_bg.svg");
+    height: 80vw;
+    width: 100vh;
+    overflow: hidden;
+    margin: 0.1vw 0.2vw 0.1vw 0.1vw;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    margin: 3vw 0vw 0vw 2vw;
+}
+
+.heading h1 {
+    font-size: 2vw;
+    font-family: 'Inria Sans', sans-serif;
+    color: rgb(223, 180, 180);
+    margin: 0vw 0vw 0vw 2vw;
+    letter-spacing: 0.1vw;
+}
+
+.heading h2 {
+    font-size: 2.5vw;
+    font-family: 'Inria Sans', sans-serif;
+    color: rgb(223, 180, 180);
+    margin: 0vw 0vw 0vw 6vw;
+    letter-spacing: 0.2vw;
+}
+
+.login-container {
+    height: auto;
+    width: 30vw;
+    padding: 0vw 0vw 2vw 0vw;
+    margin: 3vw 0vw 0vw 35vw;
+    /* background-color: #BBE6EF; */
+    border-radius: 2vw;
+    position: absolute;
+    justify-content: center;
+}
+
+.login-container h1 {
+    padding: 2vw 0vw 1vw 0vw;
+    font-size: 2.5vw;
+    color: #d2a55c;
+    font-family:'Inria Sans', sans-serif;
+}
+
+.login-container h3 {
+    padding: 0vw 0vw 1vw 0vw;
+    font-size: 0.75vw;
+    color: rgb(195, 3, 3);
+    /* font-family: 'Inria Sans', sans-serif; */
+}
+
+
+.login-details {
+    margin: 3vw 0vw 0vw 0vw;
+}
+.login-details input {
+    width: 18vw;
+    height: 2vw;
+
+    padding: 0 0.8vw;
+    border-radius: 0.5vw;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.login-details a {
+    background-color: #C87070;
+    border-radius: 2vw;
+    color: black;
+    padding: 0.55vw 3vw 0.55vw 3vw;
+    font-size: 1.4vw;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.login-details button {
+    margin: 4vw 0vw 0vw 0vw;
+
+}
+
+.sign-up h4 {
+    border-radius: 2vw;
+    padding: 2vw 3vw 0.6vw 3vw;
+    font-size: 1vw;
+    color: black;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.sign-up h4 a {
+    color: red;
+}
+
+.login-container a {
+    text-decoration: none;
+}

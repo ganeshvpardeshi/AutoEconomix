@@ -27,30 +27,32 @@
     <div class="container">
         <h1>
             Select Your Ride
-
         </h1>
         <div class="card_container">
             <div class="car_card" id="gif-rows">
-                <center><a href="../car_operation/car_form_1.css">
-                        <img src="images/car_gif.gif" alt="gif preset" class="car_gif">
+                <div class="car_hover">
+                    <center><a href="../car_operation/car_form_1.html">
+                            <img src="https://firebasestorage.googleapis.com/v0/b/foodexplorer-45afa.appspot.com/o/AutoEconomix%2Fcar_img.jpeg?alt=media&token=c0871939-b789-4c1c-a11f-fb501565145d&_gl=1*b7p7zx*_ga*NjE3NTM1OTQuMTY5ODI2NTc3Nw..*_ga_CW55HF8NVT*MTY5ODI2NTc3Ny4xLjEuMTY5ODI2NjM3My42MC4wLjA."
+                                alt="gif preset" class="car_gif">
 
-                    </a></center>
-                <button class="car_btn"><a href="../car_operation/car_form_1.css"> Car</a></button>
+                        </a></center>
+                </div>
+                <button class="car_btn"><a href="../car_operation/car_form_1.html"> Car</a></button>
 
             </div>
             <div class="bike_card">
-                <center><a><img src="images/bike_gif.gif" class="bike_img" alt="car" /></a></center>
-                <button class="bike_btn"><a href="#">Bike</a></button>
+                <div class="bike_card">
+                    <div class="bike_hover">
+                        <center><a><img
+                                    src="https://firebasestorage.googleapis.com/v0/b/foodexplorer-45afa.appspot.com/o/AutoEconomix%2Fbike_img.jpg?alt=media&token=3a810878-bc82-4055-8d9c-cf2f4902b712&_gl=1*1jutr7b*_ga*NjE3NTM1OTQuMTY5ODI2NTc3Nw..*_ga_CW55HF8NVT*MTY5ODI2NTc3Ny4xLjEuMTY5ODI2NjM1MC4xMC4wLjA."
+                                    class="bike_img" alt="car" /></a></center>
 
+                    </div>
+                    <button class="bike_btn"><a href="#">Bike</a></button>
+
+                </div>
             </div>
         </div>
-    </div>
-    <script>
-        $("img", "#gif-rows").hover(function () {
-            $('.car_img').toggle();
-            $('.car_gif').toggle();
-        });
-    </script>
 </body>
 
 </html>

@@ -22,39 +22,93 @@
 <body>
     <div class="container ">
 
-        <div class="position-relative  process">
-            <img src="images/process_image.svg" class="img-fluid " />
-            <div class="process_bar">
-                <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100"
-                    aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar" style="width: 1%"></div>
+        <div class="process">
+            <h1 class="text-center">
+                Enter Your Car Details
+            </h1>
+        <div class="d-flex justify-content-center ">
+
+            <form id="car_form" action="./car_form_1.php" class="form border-5 first-form">
+                <div class="car">
+                    <label>Car Brand :</label>&emsp;&emsp;
+                    <label for="brand">
+                        <select name="brand" id="brand" style="width: 17.5vw;">
+                            <option value="" >Select Car Brand</option>
+                        </select>
+                    </label><br>
+                    <label>Car Model :</label>&emsp;&emsp;
+                    <label for="model" >
+                        <select name="model" id="model" style="width: 17.5vw;">
+                            <option value="">Select Car Model</option>
+                        </select>
+                    </label><br>
+                    <label>Kilometer : </label>&emsp;&emsp;
+                    <input type="number" id="km" placeholder="Vehicle Kilometers Driven " style="width: 17.5vw;" /><br>
+
+                    <label>Fuel Type : </label>&emsp;&emsp;
+                    <label for="fuel_type" >
+                        <select name="fuel_type" id="fuel_type" style="width: 17.5vw;">
+                            <option value="">Car Fuel Type</option>
+                            <option value="petrol">Petrol</option>
+                            <option value="diesel">Diesel</option>
+                            <option value="electric">Electric</option>
+                            <option value="cng">CNG</option>
+                            <option value="hybrid">Hybrid</option>
+                            <option value="lpg">LPG</option>
+                        </select>
+                    </label><br>
+
+                    <label>City : </label>&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <label for="city">
+                        <select name="city" id="city" style="width: 17.5vw;">
+                            <option value="">Select City</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Bangalore">Bangalore</option>
+                            <option value="Thane">Thane</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Ahmedabad">Ahmedabad</option>
+                            <option value="Pallikarnai">Pallikarnai</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Gurgaon">Gurgaon</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Noida">Noida</option>
+                            <option value="Faridabad">Faridabad</option>
+                            <option value="Thiruvallur">Thiruvallur</option>
+                            <option value="Ambattur">Ambattur</option>
+                            <option value="Poonamallee">Poonamallee</option>
+
+                        </select>
+                    </label><br>
+                    <label>Age : </label>&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <input type="number" id="age" placeholder="Vehicle's Age" style="width: 17.5vw;" /><br>
+                </div>
+
+            </form>
+
+            <div class="button position-absolute bottom-0 ">
+                <div class="back d-inline ">
+                    <a href="../choose/choose.html" class="back_btn ">
+                        <button class="btn ">
+                            Back
+                        </button></a>
+                </div>
+                <div class="next d-inline">
+                    <a href="../choose/choose.html" class=" next_btn ">
+                        <button class="btn">
+                            Next
+                        </button></a>
                 </div>
             </div>
-            <div class="f-step">
-                <!-- 1st process -->
-                <img src="images/complete.svg" id="complete" class="img-fluid"
-                    style="z-index: -1; width: 4vw; height: 4vh; margin-top: -1.4vw;" alt="success" />
-                <h2>Enter Car <br>Basic Info</h2>
-            </div>
-            <div class="s-step">
-                <!--  2nd process -->
-                <img src="images/uncomplete.svg" id="uncomplete_1" class="img-fluid "
-                    style="z-index: -1; width: 4vw; height: 4vh;  " alt="success" />
-                <h2>Enter Car <br>Engine Info</h2>
-            </div>
-            <div class="t-step">
-                <!--  2nd process -->
-                <img src="images/uncomplete.svg" id="uncomplete_2" class="img-fluid "
-                    style="z-index: -1; width: 4vw; height: 4vh;  " alt="success" />
-                <h2 style="padding-left: 0.5vw;">Submit</h2>
-            </div>
         </div>
-        <div class="container-inter">
-            <div class="d-flex" style="height: 70vh; ">
-                <div class="vr"></div>
-              </div>
-        </div>
+
+
     </div>
+    <script src="./js/brand_model_car.js"></script>
+    <script src="./js/fuel_type_car.js"></script>
+
+
 </body>
 
 </html>

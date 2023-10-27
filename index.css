@@ -207,7 +207,7 @@ body {
     width: 40%;
     overflow: auto;
     margin-left: 5vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 /* bike image and info css*/
@@ -250,7 +250,7 @@ body {
     height: fit-content;
     top: 10vw;
     overflow: auto;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 /* Contact Us */
